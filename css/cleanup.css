@@ -12,6 +12,9 @@ div#wall div#tag-3.slick {
   display: none;
 }
 
+/* The reason you can be less specific here is because the 
+   original specification on "paint.css" is less specific.
+   This file must always overide the "paint.css" */
 #wall .parent #tag-4 {
   display: none;
 }
